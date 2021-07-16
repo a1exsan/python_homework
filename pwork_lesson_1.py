@@ -1,3 +1,6 @@
+
+# written by: Alex fominsan@gmail.com
+
 import time
 
 
