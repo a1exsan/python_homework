@@ -1,6 +1,6 @@
 
 # written by: Alex fominsan@gmail.com
-
+# practice work on python lesson 1
 import time
 
 
