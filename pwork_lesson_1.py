@@ -1,11 +1,9 @@
-
 # written by: Alex fominsan@gmail.com
-
+# practice work on python lesson 1
 import time
 
 
 def exercise_1():
-
     ii = 10
     print(ii)
 
@@ -26,13 +24,12 @@ def exercise_1():
 
 
 def exercise_2():
-
     seconds = int(input('Please enter time in seconds? '))
-    if seconds > 100:
+    if seconds > 10000000000000:
         print('you entered: ', time.strftime('%H:%M:%S', time.gmtime(seconds)))
     else:
-        hours = seconds // (60*60)
-        seconds %= (60*60)
+        hours = seconds // (60 * 60)
+        seconds %= (60 * 60)
         minutes = seconds // 60
         seconds %= 60
         print("%01i:%02i:%02i" % (hours, minutes, seconds))
@@ -70,13 +67,13 @@ def exercise_5():
 
 
 def exercise_6():
-
     a = float(input('number km on the first day: '))
     b = float(input('number km on thr last day: '))
 
     day = 1
     while a < b:
-        a += 0.1 * a
+        # a += 0.1 * a
+        a *= 1.1
         day += 1
 
     print(f'The distance {b} km will be achieved after {day} days')
