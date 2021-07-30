@@ -2,14 +2,12 @@
 
 with open("test.txt", "w") as f_obj:
 
-    run = True
-
-    while run:
+    while True:
 
         text = input('Enter some text: ')
 
         if text == '':
 
-            run = False
+            break
 
         print(text, file=f_obj)
