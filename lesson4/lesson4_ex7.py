@@ -1,4 +1,4 @@
-# written by: Alex fominsan@gmail.com
+v
 
 from math import factorial as f
 
