@@ -10,8 +10,16 @@ with open('ex6.txt') as f:
 
         if K[0] != '':
 
-            result_dict[K[0]] = K[1].split('-')
+            count = 0
+
+            L = K[1].split('-')
+
+            for i in L:
+
+                count += int(i[:i.find('(')])
+
+            result_dict[K[0]] = count
 
 for k in result_dict.keys():
 
-    print(f"{k}:  {''.join(result_dict[k])}")
+    print(f"{k}:  {result_dict[k]}")
