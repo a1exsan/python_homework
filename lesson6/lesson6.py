@@ -1,5 +1,6 @@
 
 
+
 class Animal:
     count_of_animal = 0
 
