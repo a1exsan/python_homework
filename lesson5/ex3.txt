@@ -1,0 +1,4 @@
+Ivanov 100000
+Petrov 150000
+Sidorov 90000
+Pupkin 15000
